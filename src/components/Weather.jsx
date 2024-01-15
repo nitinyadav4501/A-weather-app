@@ -20,11 +20,11 @@ const Weather = ({ searchData, searchChange, handleApi, weatherData }) => {
                             <div className="flex justify-around items-center text-orange-200 text-2xl">
                                 <div>
                                     <p className='text-yellow-300'>Min-Temp</p>
-                                    {!weatherData.main ? "---" : weatherData.main.temp_min}
+                                    {!weatherData.main ? "---" : weatherData.main.temp_min}°C
                                 </div>
                                 <div>
                                     <p className='text-yellow-300'>Max-Temp</p>
-                                    {!weatherData.main ? "---" : weatherData.main.temp_max}
+                                    {!weatherData.main ? "---" : weatherData.main.temp_max}°C
                                 </div>
                             </div>
                             <div className="flex justify-around text-orange-200 text-2xl">
